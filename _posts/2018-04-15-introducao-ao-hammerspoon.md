@@ -181,7 +181,7 @@ fechar aplicativos e o atalho Command + W pra fechar janelas. Se ainda não
 use, comece!
 
 O problema é que as teclas Q e W estão uma do lado da outra, então é fácil
-apertas Command + Q por engano quando, na verdade, o que você queria era
+apertar Command + Q por engano quando, na verdade, o que você queria era
 apertar Command + W. Aí você fecha o aplicativo inteiro em vez de fechar só
 a janela que queria fechar! 🤦
 
