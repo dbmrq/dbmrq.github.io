@@ -216,11 +216,6 @@ E eu também escrevi um script pra fazer isso usando o Hammerspoon. Vamos lá:
 Pronto! Agora você vai ter que segurar o Command + Q por um tempinho e não vai
 mais fechar seus aplicativos sem querer.
 
-Meu script funciona melhor se você tiver o luasocket instalado (senão o delay
-é um pouco grande demais, na minha opinião), e pro luasocket funcionar com
-o hammerspoon você precisa usar o luarocks com o Lua 5.3. Vou deixar você
-descobrir essa parte sozinho. 😉
-
 ## Mais
 
 Se você quiser mais, pode dar uma olhada nos meus
