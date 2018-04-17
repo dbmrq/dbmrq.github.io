@@ -70,10 +70,9 @@ a melhor configuração que eu conheço: a minha! 🎉
 
 ## Organizando janelas
 
-Como eu disse, um dos principais usos do Hammerspoon é organizar janelas.
-Então vamos começar com essa parte. Se você seguiu minhas instruções até aqui,
-deve estar com o arquivo `init.lua` aberto no seu computador. Copie esta linha
-e cole nele:
+Um dos principais usos do Hammerspoon é organizar janelas, então vamos começar
+com essa parte. Se você seguiu minhas instruções até aqui, deve estar com
+o arquivo `init.lua` aberto no seu computador. Copie esta linha e cole nele:
 
     require "winman"
 
@@ -143,7 +142,7 @@ o Desktop estiver todo coberto por janelas).
 
 ## Pomodoro
 
-Como eu disse acima, o Hammerspoon pode fazer mais do que simplesmente
+Como eu disse no começo, o Hammerspoon pode fazer mais do que simplesmente
 organizar janelas. Outro script que eu escrevi é um timer minimalista pra
 [técnica Pomodoro](https://pt.wikipedia.org/wiki/Técnica_pomodoro), que eu
 chamei de "Cherry Tomato". O processo pra usá-lo é igual ao descrito na seção
@@ -215,6 +214,21 @@ E eu também escrevi um script pra fazer isso usando o Hammerspoon. Vamos lá:
 
 Pronto! Agora você vai ter que segurar o Command + Q por um tempinho e não vai
 mais fechar seus aplicativos sem querer.
+
+## Collage
+
+Esse script cria uma lista das coisas que você copia, fazendo com que seja
+fácil encontrá-las e colá-las depois. Eu não quero que o ícone fique
+aparecendo o tempo todo e nem quero que todas as coisas que eu copio entrem na
+lista, então uso o atalho Command + Shift + C (em vez de só Command + C), mas
+é fácil mudar isso editando o código fonte. Eu também uso o atalho Command +
+Shift + V pra redigitar o último texto copiado. Isso faz com que esse
+comando possa ser usado mesmo em sites que bloqueiam o comando Command +
+V (pra copiar e colar senhas, por exemplo). Ele também é útil para colar
+o texto sem formatação. É como se tudo fosse digitado outra vez mesmo. [O
+arquivo está
+aqui.](https://github.com/dbmrq/dotfiles/raw/master/home/.hammerspoon/collage.lua)
+Dessa vez vou deixar você adaptar o resto das instruções sozinho.
 
 ## Mais
 
