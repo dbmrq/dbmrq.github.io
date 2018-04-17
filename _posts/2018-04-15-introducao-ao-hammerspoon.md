@@ -230,6 +230,12 @@ arquivo está
 aqui.](https://github.com/dbmrq/dotfiles/raw/master/home/.hammerspoon/collage.lua)
 Dessa vez vou deixar você adaptar o resto das instruções sozinho.
 
+## Mocha
+
+Esse script não deixa o seu computador dormir. Dê uma olhada no código fonte
+pra ver como funciona, [tá
+aqui](https://github.com/dbmrq/dotfiles/raw/master/home/.hammerspoon/mocha.lua).
+
 ## Mais
 
 Se você quiser mais, pode dar uma olhada nos meus
