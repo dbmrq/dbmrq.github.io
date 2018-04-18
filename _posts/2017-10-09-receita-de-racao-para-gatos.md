@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Receita de ração para gatos
+excerpt: "Há um tempo meu gato ficou doente e comecei a pesquisar como fazer
+ração pra ele em casa. Tem muitas informações conflitantes nas fontes
+lusófonas, e nenhuma me satisfez completamente..."
 ---
 
 ## As receitas lusófonas são péssimas

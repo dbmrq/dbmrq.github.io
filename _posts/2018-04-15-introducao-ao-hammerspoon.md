@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Introdução ao Hammerspoon
+excerpt: "O Hammerspoon é uma ferramenta incrível que permite a automação de algumas
+tarefas usando a linguagem de programação Lua. Um dos usos mais comuns
+é a organização de janelas..."
 ---
 
 ## Que história é essa de Hammerspoon?
