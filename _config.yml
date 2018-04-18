@@ -1,6 +1,8 @@
 
 theme: minima
 
+show_excerpts: true
+
 title: dbmrq
 author: Daniel Ballester Marques
 email: danielbmarques@gmail.com
