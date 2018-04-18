@@ -12,3 +12,8 @@ github_username:  dbmrq
 
 disqus:
     shortname: dbmrq
+
+header_pages:
+    - about.md
+    - projetos.md
+
