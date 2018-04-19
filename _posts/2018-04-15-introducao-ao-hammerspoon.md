@@ -49,6 +49,30 @@ e o [Homebrew-Cask](https://caskroom.github.io):
 
 (Mais pra frente eu vou ver se escrevo um tutorial sobre eles também.)
 
+#### Modo incrivelmente fácil
+
+Depois de escrever este tutorial, eu acabei escrevendo um script pra facilitar
+a instalação do Hammerspoon e da minha configuração:
+
+- Baixe (option + click) o arquivo
+    [install.sh](https://github.com/dbmrq/dotfiles/raw/master/home/.hammerspoon/install.sh)
+
+- Abra o Terminal (aperte Command + Space para abrir o Spotlight, digite
+    "Terminal" e aperte Enter)
+
+- Digite `cd ` (assim, com um espaço depois), arraste a pasta que contém
+    o script `install.sh` até a janela do terminal e aperte Enter
+
+- Digite `chmod +x install.sh && ./install.sh` e aperte Enter
+
+- Siga as instruções
+
+Depois da instalação, você vai precisar permitir o acesso à acessibilidade,
+como descrito acima. Aí o Hammerspoon já vai estar instalado e funcionando,
+é só você usar os atalhos de teclado citados abaixo ou abrir o arquivo
+`init.lua` para personalizá-los. De qualquer maneira, eu recomendo a leitura
+do resto do tutorial pra ter uma ideia melhor do que está acontecendo.
+
 ## Usando o Hammerspoon
 
 Depois de instalar e abrir o Hammerspoon, clique no ícone dele na barra de
@@ -209,9 +233,11 @@ Dessa vez vou deixar você adaptar o resto das instruções sozinho.
 
 ## Mocha
 
-Esse script não deixa o seu computador dormir. Dê uma olhada no código fonte
-pra ver como funciona, [tá
-aqui](https://github.com/dbmrq/dotfiles/raw/master/home/.hammerspoon/mocha.lua).
+Esse script não deixa o seu computador dormir. [Aqui está
+o arguivo](https://github.com/dbmrq/dotfiles/raw/master/home/.hammerspoon/mocha.lua),
+agora você já consegue fazer o resto sozinho. Depois de instalá-lo, é só
+apertar `⌃⌥⌘M` pra impedir o computador de entrar em repouso e depois clicar
+no ícone da barra de menus pra permitir que entre outra vez.
 
 ## Mais
 
