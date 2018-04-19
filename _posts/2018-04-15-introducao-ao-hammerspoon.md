@@ -99,49 +99,23 @@ então agora precisa baixá-lo. Vamos lá:
 
 Se tudo deu certo, o Hammerspoon vai carregar o arquivo `winman.lua` e você já
 vai poder organizar suas janelas como naquela linda fotinho! Isso é feito com
-atalhos de teclado. Aqui estão os atalhos que eu escolhi para mim (e que já
-devem estar funcionando para você):
+atalhos de teclado. Estes são os atalhos padrão:
 
 Atalho   | Resultado
 -------- | --------------------------------------------------------
-**⌃⌥⌘H** | Aumentar e diminuir janelas mantendo elas à esquerda
-**⌃⌥⌘J** | Aumentar e diminuir janelas mantendo elas embaixo
-**⌃⌥⌘K** | Aumentar e diminuir janelas mantendo elas no topo
-**⌃⌥⌘L** | Aumentar e diminuir janelas mantendo elas à direita
+**⌃⌥⌘↑** | Aumentar e diminuir janelas mantendo elas no topo
+**⌃⌥⌘↓** | Aumentar e diminuir janelas mantendo elas embaixo
+**⌃⌥⌘←** | Aumentar e diminuir janelas mantendo elas à esquerda
+**⌃⌥⌘→** | Aumentar e diminuir janelas mantendo elas à direita
 **⌃⌥⌘,** | Organizar janelas em cascata
 **⌃⌥⌘O** | Mostrar uma faixa do Desktop (Mesa)
 
 (`⌃⌥⌘` = Control + Option + Command)
 
-Então vamos fazer um teste: aperte `⌃⌥⌘H` algumas vezes e veja o que acontece!
+Então vamos fazer um teste: aperte `⌃⌥⌘←` algumas vezes e veja o que acontece!
 
-Eu escolhi as teclas H, J, K e L porque são as teclas de navegação do Vim,
-o melhor editor de texto de todos os tempos. Mas isso vai ficar para outro
-tutorial. Talvez você prefira usar teclas diferentes, então vamos lá:
-
-- Clique com o botão direito no ícone do Finder, no Dock
-
-- Selecione a opção "Ir para Pasta"
-
-- Se já não estiver lá, digite `~/.hammerspoon` e clique em "Ir"
-
-- Abra o arquivo `winman.lua`
-
-- Logo no começo, há uma lista de "hotkeys". Você pode editá-la para usar as
-  teclas que preferir. Uma sugestão é usar as setas direcionais em vez das
-  teclas H, J, K e L. Então troque essas letras pelos termos "Left", "Down",
-  "Up" e "Right" e delete as quatro linhas seguintes ("moveUp", "moveDown",
-  "moveLeft" e "moveRight")
-
-- Salve o arquivo, clique no menu do Hammerspoon e selecione "Reload Config"
-  mais uma vez
-
-Se tudo deu certo agora você pode usar `⌃⌥⌘` + as setas direcionais para
-organizar suas janelas. Faça um teste!
-
-Experimente também usar os atalhos `⌃⌥⌘,` e `⌃⌥⌘O` para organizar as janelas
-em cascata e para mostrar uma faixa do Desktop (só vai acontecer algo se
-o Desktop estiver todo coberto por janelas).
+Se você quiser usar atalhos de teclado diferentes, dê uma olhada no arquivo
+`winman.lua` para ver as opções!
 
 ## Pomodoro
 
