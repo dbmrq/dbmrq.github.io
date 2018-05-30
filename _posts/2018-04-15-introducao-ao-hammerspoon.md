@@ -54,18 +54,14 @@ e o [Homebrew-Cask](https://caskroom.github.io):
 Depois de escrever este tutorial, eu acabei escrevendo um script pra facilitar
 a instalação do Hammerspoon e da minha configuração:
 
-- Baixe (option + click) o arquivo
-    [install.sh](https://github.com/dbmrq/dotfiles/raw/master/home/.hammerspoon/install.sh)
-
 - Abra o Terminal (aperte Command + Space para abrir o Spotlight, digite
-    "Terminal" e aperte Enter)
+  "Terminal" e aperte enter)
 
-- Digite `cd ` (assim, com um espaço depois), arraste a pasta que contém
-    o script `install.sh` até a janela do terminal e aperte Enter
+- Copie e cole esta linha:
 
-- Digite `chmod +x install.sh && ./install.sh` e aperte Enter
+      curl -fsSL https://git.io/vpwL7 | bash
 
-- Siga as instruções
+- Aperte Enter e siga as instruções
 
 Depois da instalação, você vai precisar permitir o acesso à acessibilidade,
 como descrito acima. Aí o Hammerspoon já vai estar instalado e funcionando,
